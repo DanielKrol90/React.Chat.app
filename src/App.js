@@ -6,9 +6,9 @@ function App() {
 
       <ChatEngine 
         height="100vh"
-        projectID=""
-        userName=""
-        userSecter=""
+        projectID="2b37a1e8-f714-402e-bee6-eef8bb6a0708"
+        userName="DarQuest"
+        userSecret="wieliczka90"
       />
 
   );
