@@ -11,8 +11,8 @@ function App() {
   return (
     <ChatEngine
       height="100vh"
-      userName={process.env.REACT_APP_CHAT_ENGINE_USER_NAME}
-      userSecret={process.env.REACT_APP_CHAT_ENGINE_USER_SECRET}
+      userName={localStorage.getItem('username')}
+      userSecret={localStorage.getItem('password')}
       projectID={process.env.REACT_APP_CHAT_ENGINE_PROJECT_ID}
       renderChatFeed={(chatAppProps) => <ChatFeed {...chatAppProps} />}
     />
