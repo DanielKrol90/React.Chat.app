@@ -288,6 +288,11 @@
     right: 0;
   }
   
+  .center {
+    display: flex;
+    justify-content: center;
+  }
+
   .error {
     color: white;
     text-align: center;
