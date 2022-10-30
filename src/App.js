@@ -6,7 +6,7 @@ import "./App.css";
 
 function App() {
 
-  if(!localStorage.getItem('username')) return <LoginForm/>
+  if(!localStorage.getItem('username')) return <LoginForm />
 
   return (
     <ChatEngine
